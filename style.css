@@ -42,7 +42,7 @@ img {
 .hero {
   grid-area: hero;
   min-height: 400px;
-  background: white url('https://github.com/enaughton/Willows/blob/master/images/Tyler.jpg');
+  background: white url('images/tyler.jpg');
   background-size: cover;
   background-position: bottom right;
   padding: 50px;
@@ -84,6 +84,8 @@ img {
 }
 
 .info{
+  display: grid;
+  grid-template-columns: auto-fill;
   font-size: 20px;
   font-weight: 300;
 }
