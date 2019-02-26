@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Willows Bagels</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="normalize.css">
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+
+      <div class="wrapper">
+        <div class="logo">    
+         <img src='images/willows.jpg' alt='Willows Bagels'> 
+       </div>
+        <div class="top">
+          <header class='hero'>
+            <h1>Willow's Bagels</h1>
+            <p>A Place for Bagels</p>
+            <p>A Place for Friends.</p>
+          </header> 
+
+          <div class='cta cta1'>
+            <p>Address</p>
+            <p class='info'> 71 South Union Street, Burlington VT 05401</p>
+            <p class='info'> (802)-540-6864 </p>
+          </div>
+
+          <div class='cta cta2'>
+              <p> Hours </p>
+              <p class='info'>Monday through Friday: 6am-3pm </p>
+              <p class='info'> Saturday and Sunday: 7am-3pm</p>
+            
+          </div>   
+          </div>            
+              
+        <nav class='menu'>
+          <button aria-expanded="false" aria-controls="menu-list">
+        <span class="open">☰</span>
+        <span class="close">×</span>
+        Menu
+      </button>
+          <ul id="menu-list">
+        <li>
+          <a href="">Bagels  </a>
+
+        </li>
+        <li>
+          <a href="">Coffee</a>
+        </li>
+        <li>
+          <a href="">Sandwiches</a>
+        </li>
+        <li>
+          <a href="">Desserts</a>
+        </li>
+        <li>
+          <a href="">Catering</a>
+        </li>
+      </ul>
+      </nav>
+
+          <div id='about' class='about'>
+          <p> About </p>
+            <p class="info"> We offer an array of products from Bagels by the dozen to great coffee and tasty snack in between.
+                A place to enjoy local handmade bagels and a place to enjoy friends</p>
+            <p class='info'> Find us at 71 South Union Street in Burlington, VT! We are conveniently located behind City Market, and share a building with Union Street Laundry, Folino's Pizza and Stonecutter Spirits. Parking is available in our shared lot. </p>
+          </div>
+     
+        
+          
+        <script type="text/javascript">
+          
+    
+    const navButton = document.querySelector('button[aria-expanded]');
+
+    function toggleNav({ target }) {
+      const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+      navButton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav);
+
+      </script>
+
+      
+
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
