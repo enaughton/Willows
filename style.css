@@ -42,7 +42,7 @@ img {
 .hero {
   grid-area: hero;
   min-height: 400px;
-  background: white url('Willows/images/tyler.jpg');
+  background: white url('../images/tyler.jpg');
   background-size: cover;
   background-position: bottom right;
   padding: 50px;
