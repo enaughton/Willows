@@ -44,7 +44,7 @@ img {
   min-height: 400px;
   background: white url('images/tyler.jpg');
   background-size: cover;
-  background-position: bottom right;
+  background-position: middle;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ img {
 .menu ul {
   display: grid;
   grid-gap: 10px;
-  padding: 0;
+  padding: 0px;
   list-style: none;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
@@ -144,7 +144,7 @@ img {
   background: #272525;
   padding: 50px;
   display: grid;
-  grid-template-rows: 100px 100px;
+  grid-template-columns: auto-fill minmax(100px, 1fr);
   align-items: center;
   text-align: center;
   color: white;
@@ -152,15 +152,7 @@ img {
 
 }
 
-.footer{
-  background: white;
-
-
-}
-
-
-
-
+  
 /* Gallery! */
 
 .gallery {
@@ -185,7 +177,7 @@ img {
   display: block;
   content: '';
   height: 10px;
-  background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
+  background: linear-gradient(to var(--direction, left),, transparent);
 }
 
 .gallery h2:after {
