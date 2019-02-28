@@ -69,6 +69,7 @@ img {
 
 .cta p {
   margin: 0;
+  text-align: center;
 
   
 }
@@ -95,7 +96,8 @@ img {
 .menu ul {
   display: grid;
   grid-gap: 10px;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
   list-style: none;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
