@@ -39,22 +39,22 @@ img {
     "hero hero cta2"
 }
 
+
 .hero {
   grid-area: hero;
   min-height: 400px;
-  background: white url('images/tyler.jpg');
-  background-size: cover;
-  background-position: middle;
   padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero > * {
   background: #444545;
   color: white;
   padding: 5px;
+  font-size: 20px;
 }
 
 .cta {
@@ -229,6 +229,9 @@ img {
       "hero hero"
       "cta1 cta2"
   }
+
+    
+
   /* About */
   .about {
     grid-template-columns: 1fr;
