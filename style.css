@@ -38,16 +38,18 @@ img {
     "hero hero cta1"
     "hero hero cta2"
 }
-
-
+ 
 .hero {
   grid-area: hero;
   min-height: 400px;
+  background: white url(images/tyler.jpg);
+  background-size: cover;
   padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
+
 }
 
 .hero > * {
