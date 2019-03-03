@@ -44,6 +44,7 @@ img {
   min-height: 400px;
   background: white url(images/tyler.jpg);
   background-size: cover;
+  background-position: center;
   padding: 50px;
   display: flex;
   flex-direction: column;
