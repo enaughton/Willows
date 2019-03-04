@@ -49,7 +49,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: center;
+  justify-content: end;
 
 }
 
@@ -63,6 +63,7 @@ img {
 .cta {
   background: #444545;
   display: grid;
+  min-height: 240px;
   align-items: center;
   justify-items: center;
   align-content: center;
@@ -254,6 +255,7 @@ img {
   }
 
   .hero{
+    align-content: start;
     justify-content: end;
 
   }
