@@ -158,38 +158,40 @@ img {
 
 }
 
-  
-/* Gallery! */
+/*MENU*/
 
-.gallery {
+.sample{
+ background: #272525;
+  padding: 50px;
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.gallery img {
-  width: 100%;
-}
-
-.gallery h2 {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-gap: 20px;
+  grid-template-columns: auto-fill minmax(100px, 1fr);
   align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 25px
+} 
+.sample ul {
+  list-style: none;
+  text-align: center;
 }
 
-.gallery h2:before, .gallery h2:after {
-  display: block;
-  content: '';
-  height: 10px;
-  background: linear-gradient(to var(--direction, left),, transparent);
+.bagels{
+  display:grid;
+  text-align: center
 }
 
-.gallery h2:after {
-  --direction: right;
+.spreads{
+  display: grid;
+  text-align: center;
 }
 
+.coffee{
+  display: grid;
+}
+
+.treats{
+  display:grid;
+}
 @media (max-width: 1000px) {
   .menu {
     order: -1;
